@@ -1,0 +1,87 @@
+.mainContainer {
+    background-image: url(../../dist/images/Background1.svg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.buttonLinkedin {
+    background-image: url(../../dist/images/Logo_Linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+.buttonFacebook {
+    background-image: url(../../dist/images/Facebook.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+.buttonGmail {
+    background-image: url(../../dist/images/Gmail.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+.buttonEmail {
+    background-image: url(../../dist/images/Email.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+
+
+/* Tela Login */
+
+.loginContainer {
+    background-image: url(../../dist/images/Moça_de_costas.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inputPassword {
+    background-image: url(../../dist/images/Olho.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.inputPassword:focus ~ label,
+.inputPassword:valid ~ label,
+.inputEmail:focus ~ label,
+.inputEmail:valid ~ label {
+    transform: translateY(-35px);
+    font-size: 12px;
+}
+
+@media (min-width: 768px) { 
+    .loginContainer {
+        background-image: url(../../dist/images/Moça_de_costas_2.svg);
+        background-size: cover;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1280px) { 
+    .loginContainer {
+        background-image: url(../../dist/images/Moça_de_costas_3.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+/* Tela Home */
+
+.homeContainer {
+    background-image: url(../../dist/images/Home_Baclground.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
